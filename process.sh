@@ -3,4 +3,4 @@
 
 head -n 10000 data/'2013-07 - Citi Bike trip data.csv' > 2013-07-piece.csv
 csv2geojson 2013-07-piece.csv
-node parse.js > 2013-07-piece-formatted.json
+node add-line.js > 2013-07-piece-formatted.json
